@@ -2,7 +2,8 @@
 [![Programming Language](https://img.shields.io/badge/language-objective--c-ff69b4.svg)]()
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?maxAge=2592000)]()
 
-#Simple iOS Application which will shos live currency exchnages rates of USD
+#:moneybag::dollar: $ USD Currency Exchange:moneybag::dollar:
+###Simple iOS Application which will shos live currency exchnages rates of USD
 
 # Contents
 
