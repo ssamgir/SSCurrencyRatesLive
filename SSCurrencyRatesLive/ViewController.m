@@ -56,7 +56,9 @@
     NSLog(@"%@",quotes);
     
     NSString * Inr = [quotes valueForKey:@"USDINR"];
+    
     NSLog(@"%@",Inr);
+
     NSString * Cad = [quotes valueForKey:@"USDCAD"];
     NSLog(@"%@",Cad);
     NSString * Eur = [quotes valueForKey:@"USDEUR"];
@@ -66,8 +68,13 @@
     NSString * Pln = [quotes valueForKey:@"USDPLN"];
     NSLog(@"%@",Pln);
     
+
+    self.INR.text = [NSString stringWithFormat:@"%@",Inr];
     
-    
+    self.CAD.text = [NSString stringWithFormat:@"%@",Cad];
+    self.GBP.text = [NSString stringWithFormat:@"%@",Gbp];
+    self.PLN.text = [NSString stringWithFormat:@"%@",Pln];
+    self.EUR.text = [NSString stringWithFormat:@"%@",Eur];
     
 }
 
@@ -75,6 +82,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 

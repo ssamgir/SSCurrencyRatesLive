@@ -10,13 +10,14 @@
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
 
-@property (strong, nonatomic) IBOutlet UILabel *labelTextInr;
-@property (strong, nonatomic) IBOutlet UILabel *labelTextCad;
-@property (strong, nonatomic) IBOutlet UILabel *labelTextEur;
+@property (strong, nonatomic) IBOutlet UILabel *CAD;
+@property (strong, nonatomic) IBOutlet UILabel *INR;
 
-@property (strong, nonatomic) IBOutlet UILabel *labelTextGbp;
 
-@property (strong, nonatomic) IBOutlet UILabel *labelTextPln;
+@property (strong, nonatomic) IBOutlet UILabel *EUR;
+
+@property (strong, nonatomic) IBOutlet UILabel *GBP;
+@property (strong, nonatomic) IBOutlet UILabel *PLN;
 
 @end
 

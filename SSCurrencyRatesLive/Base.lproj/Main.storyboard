@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,37 +19,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" restorationIdentifier="ViewController" translatesAutoresizingMaskIntoConstraints="NO" id="Fa7-Nt-BAa">
-                                <rect key="frame" x="259.5" y="249" width="81.5" height="102.5"/>
+                                <rect key="frame" x="260" y="249" width="82" height="103"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dZY-Tx-qbK">
-                                        <rect key="frame" x="0.0" y="0.0" width="39.5" height="102.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="103"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INR:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gY-qo-cSj">
-                                                <rect key="frame" x="0.0" y="0.0" width="39.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAD:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQz-bV-ceL">
-                                                <rect key="frame" x="0.0" y="20" width="39.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="21" width="40" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EUR:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbA-Cu-zlk">
-                                                <rect key="frame" x="0.0" y="41" width="39.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="41" width="40" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GBP:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VbZ-7M-pPm">
-                                                <rect key="frame" x="0.0" y="61" width="39.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="62" width="40" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLN:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NqE-EA-fXI">
-                                                <rect key="frame" x="0.0" y="82" width="39.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="82" width="40" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -56,34 +57,34 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Dsx-BP-NsC">
-                                        <rect key="frame" x="39" y="0.0" width="42" height="102.5"/>
+                                        <rect key="frame" x="40" y="0.0" width="42" height="103"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3H-ph-Bg0">
-                                                <rect key="frame" x="0.0" y="0.0" width="42" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApG-h2-C3e">
-                                                <rect key="frame" x="0.0" y="20" width="42" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="21" width="42" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVR-s7-nfq">
-                                                <rect key="frame" x="0.0" y="41" width="42" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="41" width="42" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xS-I1-TQX">
-                                                <rect key="frame" x="0.0" y="61" width="42" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="62" width="42" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="UILabel" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNK-jc-ATu">
-                                                <rect key="frame" x="0.0" y="82" width="42" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="82" width="42" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -92,19 +93,29 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="USD Currency Exchange rates" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUf-zO-W8R">
+                                <rect key="frame" x="184" y="29" width="232" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.2259535198" green="0.63695549240000005" blue="0.25742394460000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="jUf-zO-W8R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MLt-Vk-pVz"/>
+                            <constraint firstItem="jUf-zO-W8R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MZD-LO-YnD"/>
                             <constraint firstItem="Fa7-Nt-BAa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nql-ns-bz4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jUf-zO-W8R" secondAttribute="trailing" id="PG9-0X-9Bu"/>
+                            <constraint firstItem="jUf-zO-W8R" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="wrv-z2-lCA"/>
                             <constraint firstItem="Fa7-Nt-BAa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yan-9X-0nE"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="labelTextCad" destination="ApG-h2-C3e" id="Do6-lo-B8H"/>
-                        <outlet property="labelTextEur" destination="wVR-s7-nfq" id="Hzj-pn-pGt"/>
-                        <outlet property="labelTextGbp" destination="9xS-I1-TQX" id="eQ7-mg-Ndg"/>
-                        <outlet property="labelTextInr" destination="w3H-ph-Bg0" id="2ZB-zX-1Le"/>
-                        <outlet property="labelTextPln" destination="yNK-jc-ATu" id="Qys-LZ-eGo"/>
+                        <outlet property="CAD" destination="ApG-h2-C3e" id="RWA-e8-QWe"/>
+                        <outlet property="EUR" destination="wVR-s7-nfq" id="CCQ-WF-tzp"/>
+                        <outlet property="GBP" destination="9xS-I1-TQX" id="s81-ah-mhK"/>
+                        <outlet property="INR" destination="w3H-ph-Bg0" id="h0c-DJ-f81"/>
+                        <outlet property="PLN" destination="yNK-jc-ATu" id="glI-NX-03G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
