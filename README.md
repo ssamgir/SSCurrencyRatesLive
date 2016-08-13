@@ -5,6 +5,8 @@
 #:moneybag::dollar: $ USD Currency Exchange:moneybag::dollar:
 ###Simple iOS Application which will shos live currency exchnages rates of USD
 
+
+![Print Screens](https://github.com/ssamgir/SSCurrencyRatesLive/blob/master/Resouces/Simulator%20Screen%20Shot%2013-Aug-2016%2C%203.49.32%20PM.png)
 # Contents
 
 -	[Prerequisites](#prerequisites)
