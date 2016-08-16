@@ -3,7 +3,7 @@
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?maxAge=2592000)]()
 
 #:moneybag::dollar: $ USD Currency Exchange:moneybag::dollar:
-###Simple iOS Application which will shos live currency exchnages rates of USD
+###Simple iOS Application which will print live currency exchnages rates of USD
 
 
 ![Print Screens](https://github.com/ssamgir/SSCurrencyRatesLive/blob/master/Resouces/Simulator%20Screen%20Shot%2013-Aug-2016%2C%203.49.32%20PM.png)
